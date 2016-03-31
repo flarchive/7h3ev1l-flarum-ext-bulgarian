@@ -1,0 +1,25 @@
+{
+    "name": "7h3ev1l/flarum-ext-bulgarian",
+    "type": "flarum-extension",
+    "description": "Bulgarian language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Bulgarian",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "bg",
+            "title": "Bulgarian"
+        }
+    }
+}
