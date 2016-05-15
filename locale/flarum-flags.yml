@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Flag posts
+      view_flags_label: View flagged posts
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Community Guidelines URL
+      title: Flags Settings
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Благодарим, че докладва това мнение! Нашите модератори ще го погледнат скоро!
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Неподходящ
+      reason_inappropriate_text: "Това мнение съдържа обидно съдържание или нарушава правилата за ползване на форума."
+      reason_off_topic_label: "Извън темата"
+      reason_off_topic_text: Това мнение не е за тази дискусия и трябва да бъде преместен!
+      reason_other_label: Друго
+      reason_spam_label: Спам
+      reason_spam_text: Това е реклама.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Няма доклади
+      item_text: "{username} в <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_tooltip: Отхвърли доклада
+      flagged_by_text: "{username} докладван"
+      flagged_by_with_reason_text: "{username} докладван като {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Докладвай
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Докладвай мнение
+    flagged_posts: Докладвани мнения
