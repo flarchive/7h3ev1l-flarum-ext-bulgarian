@@ -1,0 +1,35 @@
+flarum-mentions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the composer (reply autocompletion function).
+    composer:
+      reply_to_post_text: "Отговори на #{number}"
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      others_text: => core.ref.some_others
+      post_mentioned_text: "{username} отговори на твоето мнение"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} те спомена в мнение"
+
+    # These translations are displayed beneath individual posts.
+    post:
+      mentioned_by_self_text: "{users} отговори на това."  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} отговори на това."       # Can be pluralized to agree with the number of users!
+      others_text: => core.ref.some_others
+      reply_link: => core.ref.reply
+      you_text: => core.ref.you
+
+    # These translations are used in the Settings page.
+    settings:
+      notify_post_mentioned_label: Някой отговори на някои от моите мнения
+      notify_user_mentioned_label: Някой ме спомена в мнение
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      mentions_link: Споменавания
