@@ -1,0 +1,54 @@
+flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: Откажи абонамента
+      unignore_button: Откажи игнорирането
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: => flarum-subscriptions.ref.following
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "{username} публикува"
+
+    # These translations are used in the Settings page.
+    settings:
+      forum_follow_after_reply_label: Автоматично се абонирай за дискусий в които съм писал.
+      notify_new_post_label: Някой пише в тема за която съм се абонирал.
+
+    # These translations are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: Абониран
+      following_text: Уведомяване за всички отговори
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: Никога няма да бъдеш уведомяван. Скриване от листа с теми.
+      not_following_button: Не си абониран за темата
+      not_following_text: "Уведомяване само когато сте @споменати."
+      notify_alert_tooltip: Получи форум уведомление когато има нови мнения
+      notify_email_tooltip: Получи имейл уведомление когато има нови мнения
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    follow: Последвай
+    following: Абонаменти
+    ignoring: Игнорирай
