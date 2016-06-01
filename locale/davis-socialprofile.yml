@@ -1,0 +1,11 @@
+davis-socialprofile:
+  forum:
+    edit:
+      edit: "Редактирай"
+      add: "Добави"
+      headtitle: "Редактирай бутоните"
+      title: "Заглавие"
+      url: "Адрес"
+      submit: "Запази"
+  admin:
+    test: "Test"
