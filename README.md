@@ -4,7 +4,16 @@ This repository is a permanent, read-only archive of released versions of `7h3ev
 
 > **Not affiliated with the Flarum Foundation or the Flarum project.**
 
-- Archived versions are stored as tags: `archive/vX.Y.Z`
+## Quick Download
+
+- **Latest Archived Version:** `v0.1.0-beta.5.0.0.13`
+- **Flarum Compatibility:** `^0.1.0-beta.4`
+- **Direct Download (.zip):** [Download v0.1.0-beta.5.0.0.13 (.zip)](https://github.com/flarchive/7h3ev1l-flarum-ext-bulgarian/archive/refs/tags/archive/v0.1.0-beta.5.0.0.13.zip)
+- **All Releases & Tags:** [View All Releases & Tags](https://github.com/flarchive/7h3ev1l-flarum-ext-bulgarian/tags)
+
+## Archive Catalog
+
+- **Catalog Entry (JSON):** [View manifest](https://github.com/flarchive/archive-index/blob/main/packages/7h3ev1l-flarum-ext-bulgarian.json)
 - Upstream repository: https://github.com/7h3ev1l/flarum-ext-bulgarian.git
 - Issues, pull requests, discussions, and wiki are disabled on this repository.
 
